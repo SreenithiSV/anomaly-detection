@@ -1,5 +1,5 @@
 
-# ANOMALY DETECTION PROJECT
+# Anomaly Detection System
 
 This repository contains code for an anomaly detection project in cybersecurity. The project aims to detect and classify anomalies or cyber attacks within network traffic data.
 
@@ -17,9 +17,7 @@ The project involves several steps including data preprocessing, feature enginee
 
 5. **Unsupervised Clustering**: Unsupervised clustering techniques like KMeans are applied to identify inherent patterns within the data. Clustering helps in segmenting the data into groups or clusters based on similarity. Visualization techniques such as PCA are used to visualize the clusters and understand the data distribution.
 
-6. **DDoS Detection**: Specific detection techniques are employed to identify Distributed Denial-of-Service (DDoS) attacks within the cybersecurity dataset. Filtering relevant traffic types and analyzing patterns indicative of DDoS activity help in detecting and mitigating such attacks.
-
-7. **Anomaly Detection**: Anomaly detection techniques, such as Isolation Forest, are utilized to detect outliers or unusual patterns within the data. Isolation Forest is particularly effective in identifying anomalies in high-dimensional datasets. Thresholds are set to classify data points as normal or anomalous based on their anomaly scores.
+6. **Anomaly Detection**: Anomaly detection techniques, such as Isolation Forest, are utilized to detect outliers or unusual patterns within the data. Isolation Forest is particularly effective in identifying anomalies in high-dimensional datasets. Thresholds are set to classify data points as normal or anomalous based on their anomaly scores.
 
 ## Getting Started
 
@@ -44,7 +42,3 @@ Examine the results and model performance metrics.
 ## Dataset
 
 The dataset (`cybersecurity_attacks.csv`) contains information about cybersecurity attacks, including various features such as Protocol, Packet Type, Traffic Type, Timestamp, etc. The goal is to detect anomalies or suspicious activities within this data.
-
-## Conclusion
-
-This project demonstrates the application of machine learning techniques for anomaly detection in cybersecurity. Further improvements can be made by fine-tuning hyperparameters, exploring additional features, and incorporating more sophisticated anomaly detection algorithms.
